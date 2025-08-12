@@ -1,0 +1,16 @@
+
+numeros = [987654321, 2, 7654321, 56, 1234567, 1, 88888, 3,
+           42, 999999, 5, 1000000000, 13, 101010, 7, 444, 9, 2, 13, 9]
+
+
+def contar_ocorrencias(numero, lista):
+    contador = 0
+    for elemento in lista:
+        if elemento == numero:
+            contador += 1
+    return contador
+
+
+numero_a_ser_contado = 56
+ocorrencias = contar_ocorrencias(numero_a_ser_contado, numeros)
+print(f"O número {numero_a_ser_contado} aparece {ocorrencias} vezes na lista.")
