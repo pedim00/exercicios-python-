@@ -1,0 +1,9 @@
+def lista_vazia(lista):
+    if not lista:
+        return True
+    else:
+        return False
+
+
+print(lista_vazia([]))
+print(lista_vazia([16, 20]))
