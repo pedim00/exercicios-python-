@@ -1,0 +1,24 @@
+class ObraItem:
+    def __init__(self, nome):
+        self.nome = nome
+
+    def __repr__(self):
+        return f"ObraItem(nome = {self.nome})"
+
+
+itens_obra = [
+    ObraItem("Martelo"),
+    ObraItem("Prego"),
+    ObraItem("Pá"),
+    ObraItem("Colher de pedreiro"),
+    ObraItem("Cimento"),
+    ObraItem("Areia"),
+    ObraItem("Betoneira"),
+    ObraItem("Escada"),
+    ObraItem("Nível"),
+    ObraItem("Trena")
+]
+
+
+for item in itens_obra:
+    print(item)
